@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get_storage_pro/get_storage_pro.dart';
+import 'package:test_getx/navigation/navigation_screen.dart';
 import 'package:test_getx/translation/translation_controller.dart';
 import 'package:test_getx/translation/translation_screen.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       translations: TranslationController(),
       locale: Locale('en'),
       fallbackLocale: Locale('en'),
-      home: TranslationScreen(), //CounterScreen(),
+      home: NavigationScreen(), //TranslationScreen(), //CounterScreen(),
     );
   }
 }

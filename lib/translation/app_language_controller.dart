@@ -21,7 +21,7 @@ class AppLanguageController extends GetxController {
     await localStorage.saveLanguage(isEn);
 
     appLocal = isEn;
-
+    //test
     Get.updateLocale(Locale(appLocal == true ? 'en' : 'my'));
 
     update();
